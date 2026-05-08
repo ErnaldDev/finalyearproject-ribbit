@@ -6,6 +6,7 @@ const isPublicRoute = createRouteMatcher([
   '/api/webhooks/clerk(.*)',
   "/api/webhooks(.*)",
   "/api/uploadthing(.*)",
+  "/api/keepalive(.*)",
   '/',
   '/(.*)/(.*)', 
   '/(.*)' 
